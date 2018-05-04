@@ -1,4 +1,4 @@
-package cn.dubby.encrypt.decrypt;
+package cn.dubby.encrypt.decrypt.security;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;

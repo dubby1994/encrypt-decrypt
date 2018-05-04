@@ -1,4 +1,4 @@
-package cn.dubby.encrypt.decrypt;
+package cn.dubby.encrypt.decrypt.security;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;

@@ -1,4 +1,4 @@
-package cn.dubby.encrypt.decrypt;
+package cn.dubby.encrypt.decrypt.security;
 
 import cn.dubby.encrypt.decrypt.util.ByteUtil;
 
