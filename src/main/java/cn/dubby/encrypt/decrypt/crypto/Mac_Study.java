@@ -27,6 +27,8 @@ public class Mac_Study {
         SecretKey secretKey = keyGenerator.generateKey();
 
         byte[] encoded = secretKey.getEncoded();
+        System.out.println(encoded.length);
+        System.out.println(ByteUtil.byteToHex(encoded));
 
         Mac mac = Mac.getInstance(algorithm);
 

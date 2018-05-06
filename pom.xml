@@ -23,6 +23,8 @@
     </build>
     <modules>
         <module>serializable</module>
+        <module>bouncycastle</module>
+        <module>codec</module>
     </modules>
 
 
