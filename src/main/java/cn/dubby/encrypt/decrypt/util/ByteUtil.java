@@ -11,7 +11,7 @@ public class ByteUtil {
         if (bytes == null || bytes.length <= 0) {
             return EMPTY_STRING;
         }
-        StringBuilder stringBuilder = new StringBuilder(bytes.length);
+        StringBuilder stringBuilder = new StringBuilder(bytes.length * 2);
         for (byte b : bytes) {
             stringBuilder.append(digits[(b & 0xF0) >>> 4]);
             stringBuilder.append(digits[b & 0x0F]);
@@ -27,5 +27,16 @@ public class ByteUtil {
             'o', 'p', 'q', 'r', 's', 't',
             'u', 'v', 'w', 'x', 'y', 'z'
     };
+
+    public static void main(String[] args) {
+        byte[] bytes = {(byte) 0, (byte) 1, (byte) 2, (byte) 3};
+
+        System.out.println(bytes.length * 2);
+
+        String result = byteToHex(bytes);
+
+        System.out.println(result.length());
+        System.out.println(result);
+    }
 
 }
