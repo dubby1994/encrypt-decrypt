@@ -1,8 +1,5 @@
 package cn.dubby.serializable;
 
-import com.sun.corba.se.impl.orbutil.ObjectWriter;
-import sun.jvm.hotspot.utilities.ObjectReader;
-
 import java.io.*;
 
 /**
